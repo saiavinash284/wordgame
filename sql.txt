@@ -1,0 +1,36 @@
+SQL codes useed for creating Data Base
+
+1. create schema.
+syntax: create friend;
+
+2. create table. 
+syntax: create table friend(username varchar(20),password varchar(20));
+
+3.inserting data into table.
+syntax: insert into friend values('avinash','avi');
+
+3.1 inserting data into table
+syntax: insert into friend values('ashab','nani');
+
+4.Creating users friends list
+syntax: create table list(name varchar(7),name1 varchar(20));
+
+5.Inserting data into the list.
+syntax: insert into list values('avinash','ashab');
+        insert into list values('avinash','mahesh');         
+        insert into list values('avinash','surya');
+        insert into list values('avinash','sudheer');
+	insert into list values('ashab','nani');
+	insert into list values('ashab','mahesh');
+	insert into list values('ashab','avinash');
+
+6. Crteating invitation list to friends
+syntax: creating table invites(sen varchar(20),rec varchar(20));
+
+7. Inserting data into the invitation
+syntax:  insert into invites values('avinash','sudheer');
+         insert into invites values('ashab','sudheer');
+         insert into invites values('ashab','avinash');
+         insert into invites values('ashab','mahesh');
+         insert into invites values('avinash','ashab');
+
